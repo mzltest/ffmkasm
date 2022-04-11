@@ -7,3 +7,5 @@ services:
             - 5800:5800
         sync:
             - /dev/shm:/dev/shm
+        environment:
+            ENABLE_CJK_FONT:1
