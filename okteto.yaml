@@ -2,6 +2,6 @@ services:
     ff:
         public: true
         container_name: ff
-        image: jlesage/firefox
+        image: kasmweb/chrome:1.10.0
         ports:
-            - 5800:5800
+            - 6901:6901
