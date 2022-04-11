@@ -2,6 +2,6 @@ services:
     ff:
         public: true
         container_name: ff
-        image: kasmweb/chrome:1.10.0
+        image: raykuo/chrome-jdownloader2
         ports:
-            - 6901:6901
+            - 5800:5800
