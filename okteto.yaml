@@ -1,0 +1,7 @@
+services:
+    firefoxmobile:
+        public: true
+        container_name: ffm
+        image: kasmweb/firefox-mobile
+        ports:
+            - 6901:6901
