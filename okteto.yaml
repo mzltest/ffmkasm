@@ -2,6 +2,6 @@ services:
     firefoxmobile:
         public: true
         container_name: ffm
-        image: kasmweb/firefox-mobile
+        image: kasmweb/firefox-mobile:1.9.0-rolling
         ports:
             - 6901:6901
