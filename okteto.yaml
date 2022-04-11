@@ -1,7 +1,9 @@
 services:
-    firefoxmobile:
+    ff:
         public: true
-        container_name: ffm
-        image: kasmweb/chrome:1.10.0
+        container_name: ff
+        image: jlesage/firefox
         ports:
-            - 6901:6901
+            - 5800:5800
+        volumes:
+            - /dev/shm:/dev/shm
